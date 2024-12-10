@@ -25,7 +25,7 @@ namespace Practichesk5
         Pair pair2;
         Pair pair3;
 
-        private void Pair1_Increment_Click(object sender, RoutedEventArgs e)
+        private void Pair1_Increment_Click(object sender, RoutedEventArgs e)//4545345234524234234234242343
         {
             int.TryParse(Pair1_1.Text, out int a);
             int.TryParse(Pair1_2.Text, out int b);
