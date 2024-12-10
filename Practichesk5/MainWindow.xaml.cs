@@ -89,5 +89,15 @@ namespace Practichesk5
             pair1.plus(pair2, pair3, out int res_part1, out int res_part2);
             Sum3_pairs.Text = (res_part1, res_part2).ToString();
         }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void about_programm_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Выполнил Баукин Алексей Алексеевич , в 1:02 , \n Задание: Создать класс Pair (пара чисел). Создать необходимые методы и свойства.\r\nОпределить методы метод сложения полей и операцию сложения пар (а, b) + (с, d)\r\n= (а + c, b + d). Создать перегруженные методы для увеличения полей на 1,\r\nсложения трех пар чисел.");
+        }
     }
  }
